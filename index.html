@@ -1,0 +1,765 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>upwork</title>
+    <!-- bootstrap css link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- bootstrap link end here -->
+    <!-- css link here  -->
+    <link rel="stylesheet" href="style.css">
+    <!-- css link end  -->
+    <!-- AOS STYLE ANIMATION LINK -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- AOS STYLE ANIMATION LINK -->
+    <!-- font awsome  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <!-- font awsome  -->
+</head>
+
+<body>
+
+    <!-- navbar is starting from here -->
+
+    <nav class="navbar p-0">
+
+        <!-- nav-logo -->
+        <img src="./images/upwork-nav-logo.png" alt="upwork-nav-logo" class="upwork-logo ms-4 mt-2 " />
+        <!-- logo end -->
+
+        <!-- navigartion text start -->
+        <div class="navigation-text-selector">
+
+            <select name="talent" id="talent">
+                <option> Find telent </option>
+            </select>
+            <select name="Find work" id="Find work" class="p-0">
+                <option>Find work</option>
+            </select>
+            <select name="Why Upwork" id="Why Upwork">
+                <option>Why Upwork</option>
+            </select>
+            <select name="What's new" id="What's new">
+                <option>What's new</option>
+            </select>
+
+            <p class="mt-3">Enterprice</p>
+            <p class="mt-3">Pricing</p>
+
+        </div>
+        <!-- navigation text end  -->
+        <!-- nevigation serach section start -->
+        <div class="serach">
+            <div class="inisde">
+                <div class="very-inside">
+
+                    <img src="./images/search-interface-symbol.png" alt="search icon" />
+
+                    <input type="sreach" placeholder="Search">
+
+                </div>
+
+                <select name="talent">
+                    <option selected disabled>Talent</option>
+                    <option>projects</option>
+                    <option>jobs</option>
+                </select>
+
+            </div>
+        </div>
+        <!-- nevigation serach section start -->
+        <div class="btn-login">
+
+            <a href="https://www.upwork.com/ab/account-security/login" class="login">Login</a>
+
+            <button type="button" class="btn btn-success nav-btn"> <a href="https://www.upwork.com/nx/signup/"> Sign up
+                </a></button>
+        </div>
+    </nav>
+
+    <!-- navbar is end  -->
+
+    <!-- Header links Start -->
+
+    <header class="main-header ms-4">
+        <a href="https://www.upwork.com/cat/dev-it">Development & IT</a>
+        <a href="https://www.upwork.com/cat/ai">AI Services</a>
+        <a href="https://www.upwork.com/cat/design-creative">Design & Creative</a>
+        <a href="https://www.upwork.com/cat/sales-and-marketing">Sales & Marketing</a>
+        <a href="https://www.upwork.com/cat/admin-customer-support">Admin & Cusomer Support</a>
+        <select name="More">
+            <option value="More" selected disabled>More</option>
+            <!-- <option>Writing & Translation</option> -->
+            <!-- <option>Finance & Accounting</option> -->
+            <!-- <option>HR & Traning</option> -->
+            <!-- <option>Legal</option> -->
+            <!-- <option>Engenieering & Architechture</option> -->
+            <!-- <option>See all Specialization</option> -->
+        </select>
+    </header>
+
+    <!-- Header links End -->
+
+    <!-- NEW WORK -->
+
+    <!-- START WORKING ON FIRST SECTION -->
+
+    <section class="first-section container container-fluid mb-5" data-aos="flip-up">
+
+        <div class="div1 container">
+
+            <!-- fisrt-image -->
+            <img src="https://res.cloudinary.com/upwork-cloud-acquisition-prod/image/upload/f_auto,q_auto/brontes/uma-hero/image-left.png"
+                alt="inside-box-img-1" class="img-1">
+
+            <!-- Heading and center wor is here -->
+            <div class="inside-work">
+
+                <span class="inside-span">
+                    <h1 class="inside-span-h1">We connect people to bring projects to life</h1>
+                    <span class="inside-span-2">
+                        <h4 class="inside-span-h4">Find high-quality talent or open jobs with the <br> help of AI tools
+                            that keep you in control.</h4>
+                    </span>
+                </span>
+
+                <span class="inside-span-4"><input type="text" placeholder="Ask AI anything"
+                        class="p-3 ps-4 container-fluid"> <img src="./images/chat-gpt.png"></span>
+
+                <span class="inside-span-3">
+                    <p>Trusted by</p>
+                    <img src="https://res.cloudinary.com/upwork-cloud-acquisition-prod/image/upload/c_fit/brontes/uma-hero/logo-microsoft-grey.svg"
+                        alt="microsoft">&nbsp;&nbsp;&nbsp;&nbsp;<img
+                        src="https://res.cloudinary.com/upwork-cloud-acquisition-prod/image/upload/c_fit/brontes/uma-hero/logo-airbnb-grey.svg"
+                        alt="airbnb">&nbsp;<img
+                        src="https://res.cloudinary.com/upwork-cloud-acquisition-prod/image/upload/c_fit/brontes/uma-hero/logo-bissell-grey.svg"
+                        alt="bisell">
+                </span>
+
+            </div>
+
+
+            <!-- second-image -->
+
+            <img src="https://res.cloudinary.com/upwork-cloud-acquisition-prod/image/upload/f_auto,q_auto/brontes/uma-hero/image-right.png"
+                alt="inside-box-img-2" class="img-2">
+        </div>
+    </section>
+
+    <!-- END WORKING ON FIRST SECTION -->
+
+    <!-- /* STARTING SECOND SECTION FROM HERE  */ -->
+
+    <section class="second-section container container-fluid mt-5 mb-5" data-aos="fade-right">
+
+        <div class="div2 container">
+
+            <div class="inside-div2-1"></div> <!--background image is applied by css>-->
+
+            <div class="inside-div2-2">
+
+                <span class="span1-inside-div2-2">
+                    <h4>Up your work game, it’s easy</h4>
+                </span>
+
+                <span class="span2-inside-div2-2">
+                    <img src="./images/notes.png" alt="notes-icon">
+                    <pre style="font-family: Arial, Helvetica, sans-serif;"><span class="heading-div2">No cost to join</span>
+Register and browse talent profiles, explore projects, or even book a consultation.</pre>
+                </span>
+
+
+
+                <span class="span3-inside-div2-2">
+                    <img src="./images/pin.png" alt="pin-icon">
+                    <pre style="font-family: Arial, Helvetica, sans-serif;"><span class="heading-div2">Post a job and hire top talent</span>
+Finding talent doesn’t have to be a chore. Post a job or we can search for you!
+</pre>
+                </span>
+
+                <span class="span4-inside-div2-2">
+                    <img src="./images/police-shield.png" alt="shield-icon">
+                    <pre style="font-family: Arial, Helvetica, sans-serif;"><span class="heading-div2">Work with the best—without breaking the bank</span>
+Upwork makes it affordable to up your work and take advantage of low transaction rates.</pre>
+                </span>
+
+                <span class="span5-inside-div2-2">
+                    <button class="btn1-inside-div2-2">Sign up for free</button>
+                    <button class="btn2-inside-div2-2">Learn how to hire</button>
+                </span>
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+    <!-- /* ENDING SECOND SECTION FROM HERE  */ -->
+
+    <!-- STARTING WORKING ON SECTION THREE -->
+
+    <section class="section-three container container-fluid mb-5" data-aos="fade-left">
+        <h4 class="section-three-h4 mb-2">Browse talent by category</h4>
+        <p class="section-three-p mb-4">Looking for work? <span class="section-three-p-span">Browse jobs</span></p>
+
+        <div class="inside-section-three">
+
+            <div class="four-4-here">
+
+                <div class="inside-4-here-1">
+
+                    <div class="boxes-of-section-three p-3">
+                        <div class="inside-box1">Development & IT</div>
+                        <div class="inside-box2"> <img src="./images/star.png"
+                                alt="start-img"><span>4.85/5</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>1853
+                                skills</span></div>
+                    </div>
+
+
+                    <div class="boxes-of-section-three p-3">
+                        <div class="inside-box1">AI Services</div>
+                        <div class="inside-box2"> <img src="./images/star.png"
+                                alt="start-img"><span>4.85/5</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>294
+                                skills</span></div>
+                    </div>
+
+                    <div class="boxes-of-section-three p-3">
+                        <div class="inside-box1">Design & Creative</div>
+                        <div class="inside-box2"> <img src="./images/star.png"
+                                alt="start-img"><span>4.91/5</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>968
+                                skills</span></div>
+                    </div>
+
+                    <div class="boxes-of-section-three p-3">
+                        <div class="inside-box1">Sales & Marketing</div>
+                        <div class="inside-box2"> <img src="./images/star.png"
+                                alt="start-img"><span>4.77/5</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>392
+                                skills</span></div>
+                    </div>
+
+                </div>
+
+                <div class="inside-4-here-1">
+
+                    <div class="boxes-of-section-three p-3">
+                        <div class="inside-box1">Writing & Translation</div>
+                        <div class="inside-box2"> <img src="./images/star.png"
+                                alt="start-img"><span>4.92/5</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>505
+                                skills</span></div>
+                    </div>
+
+
+                    <div class="boxes-of-section-three p-3">
+                        <div class="inside-box1">Admin & Customer Support</div>
+                        <div class="inside-box2"> <img src="./images/star.png"
+                                alt="start-img"><span>4.77/5</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>508
+                                skills</span></div>
+                    </div>
+
+                    <div class="boxes-of-section-three p-3">
+                        <div class="inside-box1">Finance & Accounting</div>
+                        <div class="inside-box2"> <img src="./images/star.png"
+                                alt="start-img"><span>4.79/5</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>214
+                                skills</span></div>
+                    </div>
+
+                    <div class="boxes-of-section-three p-3">
+                        <div class="inside-box1">Engenieering & Architechture</div>
+                        <div class="inside-box2"> <img src="./images/star.png"
+                                alt="start-img"><span>4.85/5</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>650
+                                skills</span></div>
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ENDING OF SECTION THREE  -->
+
+    <!-- STARTING WORKING ON SECTION FOUR -->
+    <section class="section-four container container-fluid mb-5 mt-5" data-aos="fade-right">
+
+        <div class="inside-section-four1 container container-fluid ps-5">
+
+            <div class="under-section-four-div1">
+
+                <p class="section-four-p1">Enterprise Suite</p>
+                <h3 class="section-four-h3">This is how
+                    <br>
+                    <span class="section-four-span1">good companies find <br> good company.</span>
+                </h3>
+                <pre class="section-four-pre1">Access the top 1% of talent on Upwork, and a full suite of hybrid
+workforce management tools. This is how innovation works now.</pre>
+
+            </div>
+
+            <div class="under-section-four-div-1">
+                <div class="work-under-section-4-1 flexing"><img
+                        src="https://res.cloudinary.com/upwork-cloud-acquisition-prod/image/upload/f_auto,q_auto/brontes/for-enterprise/Skills.svg"
+                        alt="smal-logo">Access expert talent to fill your skill gaps</div>
+                <div class="work-under-section-4-2 flexing"><img
+                        src="https://res.cloudinary.com/upwork-cloud-acquisition-prod/image/upload/f_auto,q_auto/brontes/for-enterprise/Briefcase.svg"
+                        alt="smal-logo">Control your workflow: hire, classify and pay your talent</div>
+                <div class="work-under-section-4-3 flexing"><img
+                        src="https://res.cloudinary.com/upwork-cloud-acquisition-prod/image/upload/f_auto,q_auto/brontes/for-enterprise/Support.svg"
+                        alt="smal-logo">Partner with Upwork for end-to-end support</div>
+                <div class="work-under-section-4-4 flexing">
+
+                    <!-- BUTTON START-->
+                    <button class="work-under-section-4-5">Learn More</button>
+                </div>
+                <!--BUTTON END -->
+            </div>
+
+        </div>
+
+        <div class="inside-section-four2 container container-fluid"></div> <!--image is applied-->
+    </section>
+    <!-- ENDING OF SECTION FOUR  -->
+
+    <!-- STARTING WORKING ON SECTION FIVE -->
+    <section class="section-five container container-fluid mb-5" data-aos="fade-left">
+
+
+        <div class="main-div">
+            <p class="section-5-p1">For clients</p>
+
+            <h1 class="section-5-h1 mb-5">Find talent <br>
+                your way</h1>
+
+            <pre class="section-5-p2">Work with the largest network of independent
+professionals and get things done—from
+quick turnarounds to big transformations.<pre>
+
+<div class="under-main-div-s5 container-fluid">
+
+<div class="box-1">
+    <pre class="box-1-p">Post a job
+and hire a pro</pre>
+
+            <div class="Talent-Marketplace">
+                <p>Talent-Marketplace<sup style="font-size: 12px;">TM</sup></p> <img src="./images/next.png"
+                    alt="arrow">
+            </div>
+        </div>
+
+        <div class="box-1">
+            <pre class="box-1-p">Post a job
+and hire a pro</pre>
+
+            <div class="Talent-Marketplace">
+                <p>Talent-Marketplace<sup style="font-size: 12px;">TM</sup></p> <img src="./images/next.png"
+                    alt="arrow">
+            </div>
+        </div>
+
+        <div class="box-1">
+            <pre class="box-1-p">Post a job
+and hire a pro</pre>
+
+            <div class="Talent-Marketplace">
+                <p>Talent-Marketplace<sup style="font-size: 12px;">TM</sup></p> <img src="./images/next.png"
+                    alt="arrow">
+            </div>
+        </div>
+
+        </div>
+
+        </div>
+    </section>
+    <!-- ENDING OF SECTION FIVE  -->
+
+    <!-- STARTING WORKING ON SECTION SIX -->
+
+    <section class="section-six container container-fluid">
+        <div class="main-div-6">
+            <!-- FIRST UNDER CONTAINER  -->
+            <div class="under-main-div1">
+                <div class="its-under-under-main-div1">
+                    <span class="span-one">
+                        <pre class="pre-one">Why Business
+turn to Upwork
+            </pre>
+                    </span>
+
+
+                    <div class="features">
+                        <div class="feature">
+                            <i class="far fa-star"></i>
+                            <div>
+                                <h2>Proof of quality</h2>
+                                <p>Check any pro’s work samples, client reviews, and identity verification.</p>
+                            </div>
+                        </div>
+                        <div class="feature">
+                            <i class="far fa-money-bill-alt"></i>
+                            <div>
+                                <h2>No cost until you hire</h2>
+                                <p>Interview potential fits for your job, negotiate rates, and only pay for work you
+                                    approve.</p>
+                            </div>
+                        </div>
+                        <div class="feature">
+                            <i class="far fa-check-circle"></i>
+                            <div>
+                                <h2>Safe and secure</h2>
+                                <p>Focus on your work knowing we help protect your data and privacy. We’re here with
+                                    24/7 support if you need it.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="absolute-img"><img
+                    src="https://res.cloudinary.com/upwork-cloud-acquisition-prod/image/upload/c_scale,w_209,h_335,q_auto,dpr_2.0,f_auto/brontes/why-upwork/person-with-headset.png">
+            </div> <!-- SECOND UNDER CONTAINER  -->
+
+            <div class="under-main-div2">
+                <div class="work-marketplace">
+                    <h1>We're the world's work marketplace</h1>
+                    <div class="rating">
+                        <div class="icon">
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="rating-text">
+                            <strong>4.9/5</strong>
+                            <div>Clients rate professionals on Upwork</div>
+                        </div>
+                    </div>
+                    <div class="award">
+                        <div class="icon">
+                            <i class="fas fa-award"></i>
+                        </div>
+                        <div class="award-text">
+                            <strong>Award winner</strong>
+                            <div>G2’s 2021 Best Software Awards</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ENDING WORKING ON SECTION SIX -->
+
+    <!-- starting section seven  -->
+    <section class="section-seven container container-fluid mt-5 mb-5" data-aos="fade-up" data-aos-duration="3000">
+
+        <div class="section-seven-main-div">
+
+            <div class="under-div-of-section-7-1">
+
+            </div>
+
+            <div class="under-div-of-section-7-2">
+
+                <div class="under-div-of-section-7-2-inner-1 container">
+                    <p style="font-size: 24px; font-weight: 600; line-height: 26.4px; color: white ; margin-top: 10px;">
+                        For talent</p>
+
+                    <h1 class="inner-h1">Find great <br> work</h1>
+                    <pre class="pre-section-7">Meet clients you’re excited to work with and take
+your career or business to new heights.
+                </pre>
+                </div>
+                <hr class="hr1">
+
+                <div class="under-btn-and-text">
+                    <div class="div-7-1">
+
+                        <div class="boxx-1 ms-1 ">
+                            Find opportunities for<br>every stage of your <br> freelance career
+                        </div>
+                        <div class="boxx-2 text-center ">
+                            <pre> Control when, where
+and how you work</pre>
+                        </div>
+                        <div class="boxx-3">
+                            Explore different ways to earn
+                        </div>
+                    </div>
+
+                    <div><button type="button" class="btn btn-light button-7 my-3">Find Opportunities</button></div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+    <!-- ending section seven  -->
+
+    <!-- starting section eight  -->
+    <section class="section-eight" data-aos="fade-up" data-aos-duration="3000">
+        <h1 class="h1-8-1 mt-5 mb-5 ms-5" data-aos="fade-up" data-aos-duration="3000">
+            <pre class="pre-8-1">
+    Trusted by leading
+    brands and startups
+</pre>
+        </h1>
+
+        <!-- second section -->
+
+        <div class="main-section-eight container" data-aos="fade-up" data-aos-duration="3000">
+
+            <div class="under-main-section-eight">
+            </div>
+            <div class="under-main-section-eight-1">
+            </div>
+            <div class="under-main-section-eight-2">
+            </div>
+
+        </div>
+    </section>
+    <!-- Ending section eight  -->
+
+    <!-- section 9 was starting from here  -->
+
+    <section class="section-nine container container-fluid mt-5 mb-5" data-aos="fade-up" data-aos-duration="3000">
+        <div class="under-section-nine container mt-1">
+            <h2 class="h2-9">We support Ukraine</h2>
+            <p class="p-9">We are taking action to help our freelancers, our clients, and the people of Ukraine—and so
+                can you.</p>
+            <button class="learn-more mt-4">Learn More</button>
+        </div>
+
+        <div class="under-section-nine-2 mt-1">
+            <img src="./images/ukraine-help.jpg.svg" alt="ukraine-help  ">
+        </div>
+    </section>
+
+    <!-- section 9 was Ending from here  -->
+
+    <!-- section 10 was starting from here  -->
+
+    <section class="section-10 container container-fluid mt-5 mb-5" data-aos="fade-up" data-aos-duration="3000">
+
+        <div class="div-1-10">
+
+            <h2 class="h2-1-10">Top skills</h2>
+            <h2 class="h2-2-10">Trending skills</h2>
+            <h2 class="h2-3-10">Top skils in US</h2>
+            <h2 class="h2-4-10">Top skills</h2>
+
+        </div>
+        <div class="div-2-10">
+
+            <ol class="ol-section-10-1">
+                <li>Generative AI Specialists</li>
+                <li>Data Entry Specialists</li>
+                <li>Video Editors</li>
+                <li>Data Analyst</li>
+                <li>Shopify Developer</li>
+                <li>Ruby on Rails Developer</li>
+                <li>Android Developer</li>
+                <li>Bookkeeper</li>
+                <li>Content Writer</li>
+                <li>Copywriter</li>
+                <li>Data Scientist</li>
+                <li>Front-End Developer</li>
+                <li>Game Developer</li>
+                <li>Graphic Designer</li>
+                <li>iOS Developer</li>
+                <li>Java Developer</li>
+            </ol>
+
+
+        </div>
+
+        <div class="div-3-10">
+
+            <ol class="ol-section-10-2">
+                <li>JavaScript Developer</li>
+                <li>Logo Designer</li>
+                <li>Mobile App Developer</li>
+                <li>PHP Developer</li>
+                <li>Python Developer</li>
+                <li>Resume Writer</li>
+                <li>SEO Expert</li>
+                <li>Social Media Manager</li>
+                <li>Software Developer</li>
+                <li>Software Engineer</li>
+                <li>Technical Writer</li>
+                <li>UI Designer</li>
+                <li>UX Designer</li>
+                <li>Virtual Assistant</li>
+                <li>Web Designer</li>
+                <li>Wordpress Developer</li>
+            </ol>
+        </div>
+
+    </section>
+
+    <!-- section 10 was Ending from here  -->
+
+    <!-- last footer starting from here  -->
+
+    <footer class="main-Footer" data-aos="fade-up"
+     data-aos-anchor-placement="top-bottom">
+
+        <div class="inner-main-div container">
+
+            <div class="first-foot container mb-3">
+
+                <div class="in-inner-div-1">
+                    <ol>
+                        <span class="span-footer-1">
+                            <li>For Clients</li>
+                        </span>
+                        <li>How to hire</li>
+                        <li>Talent Marketplace</li>
+                        <li>Project Catalog</li>
+                        <li>Hire an agency</li>
+                        <li>Enterprise</li>
+                        <li>Any Hire</li>
+                        <li>Contract-to-hire</li>
+                        <li>Direct Contracts</li>
+                        <li>Hire worldwide</li>
+                        <li>Hire in the USA</li>
+                    </ol>
+                </div>
+
+                <div class="in-inner-div-2">
+
+                    <ol>
+                        <li>For Talent</li>
+                        <li>How to find work</li>
+                        <li>Direct Contracts</li>
+                        <li>Find freelance jobs worldwide</li>
+                        <li>Find freelance jobs in the USA</li>
+                        <li>Win work with ads</li>
+                        <li>Exclusive resources with Freelancer Plus</li>
+                    </ol>
+
+                </div>
+
+
+                <div class="in-inner-div-3">
+
+                    <ol>
+                        <li>Resources</li>
+                        <li>Help & support</li>
+                        <li>Success stories</li>
+                        <li>Upwork reviews</li>
+                        <li>Resources</li>
+                        <li>Blog</li>
+                        <li>Affiliate programme</li>
+                        <li>Free Business Tools</li>
+                    </ol>
+
+                </div>
+
+                <div class="in-inner-div-4">
+
+                    <ol>
+                        <span>
+                            <li>Company</li>
+                        </span>
+                        <li>About us</li>
+                        <li>Leadership</li>
+                        <li>Investor relations</li>
+                        <li>Careers</li>
+                        <li>Our impact</li>
+                        <li>Press</li>
+                        <li>Contact us</li>
+                        <li>Partners</li>
+                        <li>Trust, safety & security</li>
+                        <li>Modern slavery statement</li>
+                    </ol>
+                </div>
+
+
+
+
+
+            </div>
+
+
+
+
+            <div class="second-foot container  mb-3">
+
+                <div class="second-foot-1">
+                    <p>Follow us</p>
+                    <span class="f"><img src="./icons/f-inside-a-circle.png" alt="facebook"></span>
+                    <span class="in"><img src="./icons/linkedin.png" alt="linkedin"></span>
+                    <span class="x"><img src="./icons/twitter.png" alt="twitter"></span>
+                    <span class="yt"><img src="./icons/youtube.png" alt="youtube"></span>
+                    <span class="insta"><img src="./icons/instagram.png" alt="instagram"></span>
+
+
+
+                </div>
+
+
+                <div class="second-foot-2" style="gap: 15px;">
+
+                    <p>mobile app</p>
+                  <span class="apple"><img src="/icons/apple.png" alt="apple"></span>
+                    <span class="android"><img src="./icons/android.png" alt="android"></span>
+
+                </div>
+
+            </div>
+
+
+
+            <div class="third-foot container" >
+
+                <ol class="footer-last-ol">
+                    <li>© 2015 - 2024 Upwork® Global Inc.</li>
+                    <li>Terms of Service</li>
+                    <li>Privacy Policy</li>
+                    <li>CA Notice at Collection</li>
+                    <li>Cookie Settings</li>
+                    <li>Accessibility</li>
+                </ol>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+    <!-- footer was ending here  -->
+
+
+    <br>
+
+
+
+
+
+</body>
+<!-- .javascript-work -->
+<!-- javascript link of bootsrtap -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+    integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+    crossorigin="anonymous"></script>
+<!-- javascript link ofbootstrap end here -->
+<!-- AOS JAVASCRIPT  LINK -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<script>
+    AOS.init({
+        offset: 360,
+        duration: 2700
+    });
+</script>
+<!-- AOS JAVASCRIPT  LINK -->
+
+</html>
